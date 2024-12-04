@@ -1,0 +1,314 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.color-orange{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+}
+.bg-black{
+    padding-bottom: 30px;
+    padding-top: 40px;
+    margin: 0;
+    background-color: rgba(14, 8, 1, 0.781);
+}
+.bg-blacks{
+    border-bottom: 1px solid rgba(240, 156, 156, 0.432);
+    padding: 0;
+    margin: 0;
+    background-color: rgba(14, 8, 1, 0.781);
+}
+.button a{
+    font-size: 18px;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    text-decoration: none;
+background-color: rgb(248, 144, 69);
+}
+.color-white{
+    color: white;
+}
+.color-orange{
+    color: rgb(241, 107, 58);
+}
+.nav-area{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 22%;
+}
+.nav-menu{
+display: flex;
+justify-content: space-between;
+}
+
+.menu a{
+    
+    padding-left: 15px;
+    text-decoration: none;
+color: rgb(250, 244, 244);}
+.welcome-area{
+    padding-top: 80px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.welcome-area .logo{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-area h1{
+    margin: 0;
+    padding: 0;
+}
+.welcome-area h4{
+    padding: 0;
+}
+.subtittle{
+    color: white;
+    font-size: 25px;
+}
+.main-tittle{
+    color: white;
+    font-size:40px;
+}
+.bg-image{
+    padding-bottom: 40px;
+    background-image: url(image/Brown\ Bold\ Background\ Instagram\ Post.png);
+}
+/* working-area  style*/
+.working-area{
+    align-items: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.tow-image img{
+    border-radius: 8px;
+    padding-left: 6px;
+    gap: 20px;
+}
+.content h2{
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+.color-blur{
+    color: rgba(99, 95, 91, 0.76);
+}
+.alinement{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.alinement h1{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+.Dishes-section{
+    display: flex;
+    justify-content: space-between;
+}
+.single-dish{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+.single-dish img{
+    width: 12%;
+}
+.dish-tittle{
+    align-items: center;
+    font-size: 18px;
+    padding-bottom: 8px;
+    justify-content:space-between ;
+    border-bottom: 1px solid rgba(31, 20, 20, 0.342);
+    display: flex;
+}
+.dis-article{
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.Great-Food{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Great-Food h1{
+    font-size: 2em;
+padding: 0;
+margin: 0;
+}
+.singal-menu{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+    display: flex;
+    flex-direction: column
+}
+.singal-menu .tittle{
+display: flex;
+justify-content: space-between;
+}
+.singal-menu .tittle h1{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.menu-item{
+    padding: 25px;
+}
+.menu-area{
+    background-color: white;
+    box-shadow: 2px 2px 3px;
+    border-radius: 5px;
+    padding:40px ;
+    justify-content: space-between;
+    display: flex;
+}
+.bg-images{
+    background-image: url(image/section.png);
+}
+.great-team{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.great-team h1{
+    padding: 0;
+    margin: 0;
+}
+.chef-area{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.person{
+    /* padding: 20px; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.person img{
+    border-radius: 90px;
+    width: 50%;
+}
+.person .detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+    padding-left:10px;
+    padding-right: 10px;
+    margin: 0;
+}
+.person .name{
+    gap: 0;
+    margin: 0;}
+    .clients{
+        padding: 20px;
+        background-color: white;
+        box-shadow: 2px 2px 5px;
+    }
+    .best-clients{
+        padding-top: 100px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .best-clients h1{
+        margin: 0;
+        padding: 0;
+    }
+    .clients{
+        display: flex;
+        flex-direction: column;
+    }
+    .clients-area{
+        gap: 30px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .man img{
+        border-radius: 90%;
+        width: 15%;
+    }
+    .man-detail{
+        padding-left:8px ;
+        align-items: center;
+        display: flex;
+    }
+    .man-name h3{
+        padding: 0;
+        margin: 0;
+    }
+    .man-name{
+        padding-left: 10px;
+        align-items: center;
+    }
+    .last-section{
+        padding-top: 80px;
+        align-items: center;
+        display: flex;
+    }
+    .last-section .half-width img{
+        border-radius: 6px;
+    }
+    .input-area{
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .input-area input{
+        border-radius: 3px;
+        height: 55px;
+        width: 500px;
+    }
+    .last-button{
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(248, 144, 69);
+        height: 55px;
+        width: 505px;
+    }
+    .last-button a{
+         color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .footer-area{
+        padding: 0;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .chef-logo img{
+        width: 16%;
+    }
+footer{
+    padding-top: 40px;
+}
+    
